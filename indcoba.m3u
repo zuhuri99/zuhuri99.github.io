@@ -5,13 +5,13 @@ https://iptv-nublltsls-mwafa.vercel.app/api/vidio?id=205
 #EXTINF:0, tvg-logo="https://i.postimg.cc/ZKv7J82B/tvone.png" group-title="BERITA", TVONE
 #EXTVLCOPT:network-caching=1000
 http://202.80.222.130/000001/2/ch14061215030555428637/index.m3u8?virtualDomain=000001.live_hls.zte.com
-#EXTINF:360, SCTV
+#EXTINF:360, tvg-logo="https://i.postimg.cc/B6ZFwp58/sctv.png" group-title="LOCAL", SCTV
 #EXTVLCOPT:network-caching=1000
 https://iptv-nublltsls-mwafa.vercel.app/api/vidio?id=204
 #EXTINF:60, tvg-logo="https://i.postimg.cc/DyWXD5DD/antv.png" group-title="LOCAL", ANTV
 #EXTVLCOPT:network-caching=1000
 http://210.210.155.35/qwr9ew/s/s07/02.m3u8
-#EXTINF:30,Berita Satu World
+#EXTINF:30,tvg-logo="https://i.postimg.cc/8z2Bwxzt/beritasatu.png" group-title="BERITA", Berita Satu World
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 http://edge.linknetott.swiftserve.com/live/BsNew/amlst:bsnew/playlist.m3u8
@@ -47,15 +47,11 @@ https://vcdn2.rctiplus.id/live/eds/mnctv_fta/live_fta/mnctv_fta.m3u8
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://livestreaming-google-etslive.vidio.com/hls-p/ingest_875_720p/index.m3u8
-#EXTINF:0,RCTI (720p)
+#EXTINF:0,tvg-logo="https://1.bp.blogspot.com/-HO0bKm61gag/XbLtZYpFkVI/AAAAAAAAAtI/5cG_swWFmsQCd0JyWBI080A1zTis6N_hACLcBGAsYHQ/s1600/20191010_164600.png" group-title="LOCAL", RCTI (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://vcdn2.rctiplus.id/live/eds/rcti_fta/live_fta/rcti_fta.m3u8
-#EXTINF:0,RRI Net (720p)
-#EXTVLCOPT:file-caching=1000
-#EXTVLCOPT:network-caching=1000
-http://36.89.47.217:11935/rrinet/live/index.m3u8
-#EXTINF:0,RTV
+#EXTINF:0,tvg-logo="https://i.postimg.cc/fb172pW8/rajawalitv.png" group-title="LOCAL", RTV
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://livestreaming-google-etslive.vidio.com/hls-p/ingest_1561_720p/index.m3u8
@@ -63,7 +59,7 @@ https://livestreaming-google-etslive.vidio.com/hls-p/ingest_1561_720p/index.m3u8
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
-#EXTINF:27,TRANS TV HD (720p)
+#EXTINF:27,tvg-logo="https://www.useetv.com/assets/images/channel/logo_transtv_big1.png?v=2.0.0.13" group-title="LOCAL", TRANS TV HD (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
