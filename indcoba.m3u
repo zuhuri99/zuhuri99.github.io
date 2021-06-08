@@ -66,4 +66,4 @@ http://wpc.d1627.nucdn.net:80/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Str
 #EXTINF:30,TV ONE
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
-https://www.youtube.com/watch?v=yeXkLCFIuCU
+http://edge.metroTVnews.com:1935/live-edge/smil:metro.smil/master.m3u8
