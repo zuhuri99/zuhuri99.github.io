@@ -10,7 +10,7 @@ rtmp://118.97.183.222/discover/muhammadiyahtv
 https://iptv-nublltsls-mwafa.vercel.app/api/vidio?id=205
 #EXTINF:0, tvg-logo="https://i.postimg.cc/ZKv7J82B/tvone.png" group-title="BERITA",TVONE
 #EXTVLCOPT:network-caching=1000
-http://210.210.155.35:80/session/ee7383c6-2ece-11eb-a769-b82a72d63267/uq2663/h/h12/01.m3u8
+http://210.210.155.35/session/89b67282-bba9-11eb-a2f9-a89d8f6847b4/qwr9ew/s/s105/01.m3u8
 #EXTINF:360, tvg-logo="https://i.postimg.cc/B6ZFwp58/sctv.png" group-title="LOCAL",SCTV
 #EXTVLCOPT:network-caching=1000
 https://iptv-nublltsls-mwafa.vercel.app/api/vidio?id=204
