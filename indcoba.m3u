@@ -3,10 +3,10 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/ZKv7J82B/tvone.png" group-title="BERITA",TVONE
 http://210.210.155.35/session/89b67282-bba9-11eb-a2f9-a89d8f6847b4/qwr9ew/s/s105/01.m3u8
-#EXTINF:-1,TV 9
+#EXTINF:-1 TV 9
 #EXTVLCOPT:network-caching=1000
 http://wowza60.indostreamserver.com:1935/tv9/live/playlist.m3u8
-#EXTINF:360,TV MUHAMMADIYAH
+#EXTINF:-1,TV MUHAMMADIYAH
 #EXTVLCOPT:network-caching=1000
 rtmp://118.97.183.222/discover/muhammadiyahtv
 #EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/sctv.png" group-title="LOCAL",SCTV
@@ -51,7 +51,7 @@ https://vcdn2.rctiplus.id/live/eds/mnctv_fta/live_fta/mnctv_fta.m3u8
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://livestreaming-google-etslive.vidio.com/hls-p/ingest_875_720p/index.m3u8
-#EXTINF:-1,tvg-logo="https://1.bp.blogspot.com/-HO0bKm61gag/XbLtZYpFkVI/AAAAAAAAAtI/5cG_swWFmsQCd0JyWBI080A1zTis6N_hACLcBGAsYHQ/s1600/20191010_164600.png" group-title="LOCAL",RCTI (720p)
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-HO0bKm61gag/XbLtZYpFkVI/AAAAAAAAAtI/5cG_swWFmsQCd0JyWBI080A1zTis6N_hACLcBGAsYHQ/s1600/20191010_164600.png" group-title="LOCAL",RCTI (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://vcdn2.rctiplus.id/live/eds/rcti_fta/live_fta/rcti_fta.m3u8
@@ -67,7 +67,7 @@ https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
-#EXTINF:-1,TVRI Sport HD
+#EXTINF:-1 TVRI Sport HD
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 http://wpc.d1627.nucdn.net:80/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream(03)/index.m3u8<script>mendeleyWebImporter = {
