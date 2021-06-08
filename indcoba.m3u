@@ -31,7 +31,7 @@ https://vcdn2.rctiplus.id/live/eds/gtv_fta/live_fta/gtv_fta.m3u8
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://livestreaming-google-etslive.vidio.com/hls-p/ingest_5409_720p/index.m3u8
-#EXTINF:360,tvg-logo="https://awsimages.detik.net.id/content/2011/09/09/10/kompas-tv-luar.jpg" group-title="BERITA", Kompas TV
+#EXTINF:360,tvg-logo="https://www.useetv.com/assets/images/channel/logo_kompastv_small.png" group-title="BERITA", Kompas TV
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://livestreaming-google-etslive.vidio.com/hls-p/ingest_874_720p/index.m3u8
