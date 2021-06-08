@@ -6,7 +6,7 @@ http://210.210.155.35/session/89b67282-bba9-11eb-a2f9-a89d8f6847b4/qwr9ew/s/s105
 #EXTINF:-1 TV 9
 #EXTVLCOPT:network-caching=1000
 http://wowza60.indostreamserver.com:1935/tv9/live/playlist.m3u8
-#EXTINF:-1,TV MUHAMMADIYAH
+#EXTINF:-1 TV MUHAMMADIYAH
 #EXTVLCOPT:network-caching=1000
 rtmp://118.97.183.222/discover/muhammadiyahtv
 #EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/sctv.png" group-title="LOCAL",SCTV
@@ -15,6 +15,8 @@ https://znjjprwzgeyyp.vidio.com/hls-p/ingest_204_720p/index.m3u8
 https://znjjprwzgeyyp.vidio.com/hls-p/ingest_205_720p/index.m3u8
 #EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/antv.png" group-title="LOCAL",ANTV
 http://210.210.155.35:80/session/74698288-2ed3-11eb-82e0-c81f66f89318/qwr9ew/s/s07/01.m3u8
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/rcti.png" group-title="LOCAL",RCTI
+https://znjjprwzgeyyp.vidio.com/hls-p/ingest_665_720p/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/8z2Bwxzt/beritasatu.png" group-title="BERITA",Berita Satu World
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
@@ -51,10 +53,6 @@ https://vcdn2.rctiplus.id/live/eds/mnctv_fta/live_fta/mnctv_fta.m3u8
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://livestreaming-google-etslive.vidio.com/hls-p/ingest_875_720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-HO0bKm61gag/XbLtZYpFkVI/AAAAAAAAAtI/5cG_swWFmsQCd0JyWBI080A1zTis6N_hACLcBGAsYHQ/s1600/20191010_164600.png" group-title="LOCAL",RCTI (720p)
-#EXTVLCOPT:file-caching=1000
-#EXTVLCOPT:network-caching=1000
-https://vcdn2.rctiplus.id/live/eds/rcti_fta/live_fta/rcti_fta.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/fb172pW8/rajawalitv.png" group-title="LOCAL",RTV
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
