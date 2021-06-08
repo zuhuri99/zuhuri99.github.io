@@ -1,14 +1,14 @@
 #EXTM3U
-#EXTINF:360, INDOSIAR
+#EXTINF:360, tvg-logo="https://i.postimg.cc/QdwWh5Lt/indosiar.png" group-title="LOCAL", INDOSIAR
 #EXTVLCOPT:network-caching=1000
 https://iptv-nublltsls-mwafa.vercel.app/api/vidio?id=205
-#EXTINF:0, TVONE
+#EXTINF:0, tvg-logo="https://i.postimg.cc/ZKv7J82B/tvone.png" group-title="LOCAL", TVONE
 #EXTVLCOPT:network-caching=1000
-https://iptv-nublltsls-mwafa.vercel.app/api/yt?id=XdZ2nJvmfrI
+http://202.80.222.130/000001/2/ch14061215030555428637/index.m3u8?virtualDomain=000001.live_hls.zte.com
 #EXTINF:360, SCTV
 #EXTVLCOPT:network-caching=1000
 https://iptv-nublltsls-mwafa.vercel.app/api/vidio?id=204
-#EXTINF:60, ANTV
+#EXTINF:60, tvg-logo="https://i.postimg.cc/DyWXD5DD/antv.png" group-title="LOCAL", ANTV
 #EXTVLCOPT:network-caching=1000
 http://210.210.155.35/qwr9ew/s/s07/02.m3u8
 #EXTINF:30,Berita Satu World
@@ -23,11 +23,11 @@ https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
-#EXTINF:600,GTV (720p)
+#EXTINF:600,tvg-logo="https://i.postimg.cc/HsqNM8Hc/globaltv.png" group-title="LOCAL", GTV (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://vcdn2.rctiplus.id/live/eds/gtv_fta/live_fta/gtv_fta.m3u8
-#EXTINF:0,tvg-logo="https://i.postimg.cc/QdwWh5Lt/indosiar.png" group-title="LOCAL", iNews
+#EXTINF:0,tvg-logo="https://i.postimg.cc/3r4RxmbC/inewstv.png" group-title="LOCAL", iNews
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://livestreaming-google-etslive.vidio.com/hls-p/ingest_5409_720p/index.m3u8
@@ -59,7 +59,7 @@ http://36.89.47.217:11935/rrinet/live/index.m3u8
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://livestreaming-google-etslive.vidio.com/hls-p/ingest_1561_720p/index.m3u8
-#EXTINF:27,TRANS 7 HD (720p)
+#EXTINF:27,tvg-logo="https://i.postimg.cc/YCfxSb39/trans7.png" group-title="LOCAL", TRANS 7 HD (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
