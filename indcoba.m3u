@@ -70,29 +70,31 @@ http://wowza60.indostreamserver.com:1935/tv9/live/playlist.m3u8
 #EXTINF:-1 TV MUHAMMADIYAH
 #EXTVLCOPT:network-caching=1000
 rtmp://118.97.183.222/discover/muhammadiyahtv
-#EXTINF:0,TVN
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/tvn.png" group-title="VIDIO",TVN
 https://znjjprwzgeyyp.vidio.com/hls-p/ingest_6362_720p/index.m3u8
-#EXTINF:0,Zee Bioskop
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/zeebioskop.png" group-title="VIDIO",Zee Bioskop
 https://znjjprwzgeyyp.vidio.com/hls-p/ingest_6399_720p/index.m3u8
-#EXTINF:0,Citra Bioskop
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/citrabioskop.png" group-title="VIDIO",Citra Bioskop
 https://znjjprwzgeyyp.vidio.com/hls-p/ingest_6684_720p/index.m3u8
-#EXTINF:0,Citra Dangdut
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/citradangdut.png" group-title="VIDIO",Citra Dangdut
 https://znjjprwzgeyyp.vidio.com/hls-p/ingest_6587_720p/index.m3u8
-#EXTINF:0,Citra Entertainment
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/citraentertainment.png" group-title="VIDIO",Citra Entertainment
 https://znjjprwzgeyyp.vidio.com/hls-p/ingest_6402_720p/index.m3u8
-#EXTINF:0,Mola TV Free
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/zing.png" group-title="VIDIO",Zing
+https://znjjprwzgeyyp.vidio.com/hls-p/ingest_6747_720p/index.m3u8
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/arirang.png" group-title="VIDIO",ARIRANG 
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/magnatv.png" group-title="VIDIO",Magna TV
+https://edge.medcom.id/live-edge/smil:magna.smil/chunklist_kamiselaluada_b3884000_sleng.m3u8
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/mola.png" group-title="VIDIO",Mola TV Free
 https://znjjprwzgeyyp.vidio.com/hls-p/ingest_6840_720p/index.m3u8
-#EXTINF:0,AlJazeera
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/aljazeera.png" group-title="VIDIO",AlJazeera
 https://znjjprwzgeyyp.vidio.com/hls-p/ingest_6410_720p/index.m3u8
-#EXTINF:0,Al Jazeera English
-https://live-hls-web-aje.getaj.net/AJE/01.m3u8
-#EXTINF:0,DAAI TV
-http://210.210.155.35:80/session/07b13610-2edb-11eb-ae09-c81f66f89318/qwr9ew/s/s13/01.m3u8
-#EXTINF:0,NHK WORLD
+#EXTINF:-1 tvg-id="nhkworld" tvg-logo="http://kamiselaluada.com/img/nhkworld.png" group-title="International Channel",NHK WORLD
 http://210.210.155.35:80/session/1010caf2-2ede-11eb-9da2-b82a72d63267/uq2663/h/h23/01.m3u8
-#EXTINF:0,AL JAZEERA English
+#EXTINF:-1 tvg-id="aljazeera" tvg-logo="http://kamiselaluada.com/img/aljazeera.png" group-title="International Channel",AL JAZEERA English
 http://210.210.155.35:80/session/c461c448-2ede-11eb-9da2-b82a72d63267/qwr9ew/s/s17/01.m3u8
-#EXTINF:0,AL JAZEERA Arabic
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/aljazeera.png" group-title="International Channel",AL JAZEERA Arabic
 http://210.210.155.35:80/session/15ebf4f0-2edf-11eb-9063-b82a72d63267/qwr9ew/s/s16/01.m3u8
 #EXTINF:0,tvN
 http://210.210.155.35:80/session/01bdbc8e-a40f-11eb-8209-c81f66f89318/dr9445/h/h20/01.m3u8
@@ -128,37 +130,41 @@ http://rr.dens.tv/h/h90/S4/mnf.m3u8
 http://210.210.155.35/session/06daabf6-3131-11eb-a245-b82a72d63267/uq2663/h/h01/01.m3u8
 #EXTINF:0,Bloomberg
 http://210.210.155.35/session/cafb2556-3131-11eb-8209-c81f66f89318/uq2663/h/h03/01.m3u8
-#EXTINF:0,Fox Sport 1
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/foxsports1.png" group-title="Sports",Fox Sport 1
 https://livecdn.fptplay.net/qnetlive/foxsports_2000.stream/chunklist.m3u8
-#EXTINF:0,Fox Sport 2
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/foxsports2.png" group-title="Sports",Fox Sport 2
 https://livecdn.fptplay.net/qnetlive/foxsports2_2000.stream/chunklist.m3u8
-#EXTINF:0,Fox Sport 3
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/foxsports3.png" group-title="Sports",Fox Sport 3
 https://livecdn.fptplay.net/qnetlive/foxsports3_2000.stream/chunklist.m3u8
-#EXTINF:0,BT SPORTS 1
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/bt1.png" group-title="Sports",BT SPORTS 1
 http://77.83.117.60:8888/02_BTSPORTHD_1_720p/chunklist.m3u8
-#EXTINF:0,BT SPORTS 2
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/bt2.png" group-title="Sports",BT SPORTS 2
 http://77.83.117.60:8888/02_BTSPORTHD_2_720p/chunklist.m3u8
-#EXTINF:0,Al Quran Al Kareem 2
+#EXTINF:0 tvg-id="ksa.alqurantv" group-title="Religi" tvg-logo="http://kamiselaluada.com/img/mekkah.png", Al Quran Al Kareem 2
 http://m.live.net.sa:1935/live/quran/chunklist_w153025064.m3u8
 #EXTINF:0,RODJA TV
 http://vids.rodja.tv:1935/live/rodja/playlist.m3u8
 #EXTINF:0,AHSAN TV
 http://119.82.224.75:1935/live/ahsantv/playlist.m3u8
-#EXTINF:0,Surau TV
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/rodjatv.png" group-title="Religi",RODJA TV
+http://vids.rodja.tv:1935/live/rodja/playlist.m3u8
+#EXTINF:-1 group-title="Religi" tvg-logo="http://kamiselaluada.com/img/ahsantv.png",AHSAN TV
+http://119.82.224.75:1935/live/ahsantv/playlist.m3u8
+#EXTINF:-1 group-title="Religi" tvg-logo="http://kamiselaluada.com/img/surautv.png",Surau TV
 http://119.235.249.58:1935/surautv/live/playlist.m3u8
-#EXTINF:0,AL-ImanTV
+#EXTINF:-1 group-title="Religi" tvg-logo="http://kamiselaluada.com/img/alimantv.png",AL-ImanTV
 https://tv.rodja.live/aliman/HD/playlist.m3u8
-#EXTINF:0,MGI TV
+#EXTINF:-1 group-title="Religi" tvg-logo="http://kamiselaluada.com/img/mgitv.png",MGI TV
 https://tv.rodja.live/tasik/mgitv/index.m3u8
-#EXTINF:0,muadzTV
+#EXTINF:-1 group-title="Religi" tvg-logo="http://kamiselaluada.com/img/muadztv.png",MuadzTV
 http://wowza60.indostreamserver.com:1935/muadztv/live/chunklist_123.m3u8
-#EXTINF:0 IZZAH TV
+#EXTINF:-1 group-title="Religi" tvg-logo="http://kamiselaluada.com/img/izzahtv.png",IZZAH TV
 https://streaming.sigraduta.co.id/izzahtv.m3u8
-#EXTINF:0 IZZAH TV 2
+#EXTINF:-1 group-title="Religi" tvg-logo="http://kamiselaluada.com/img/izzahtv.png",IZZAH TV 2
 https://streaming.radiosalamjambi.com/izzahtv.m3u8
-#EXTINF:0 Wesaltv
+#EXTINF:-1 group-title="Religi" tvg-logo="http://kamiselaluada.com/img/wesaltv.png",Wesaltv
 http://wowza58.indostreamserver.com:1935/wesaltv/live/playlist.m3u8
-#EXTINF:0 Salam TV
+#EXTINF:-1 group-title="Religi" tvg-logo="http://kamiselaluada.com/img/salamtv.png",Salam TV
 http://wowza60.indostreamserver.com:1935/salamtv/live/playlist.m3u8
 #EXTINF:0 NHK World
 https://b-nhkwlive-ojp.webcdn.stream.ne.jp/hls/live/2003459-b/nhkwlive-ojp/index_4M.m3u8
@@ -174,17 +180,17 @@ https://tv-trtworld.live.trt.com.tr/master_1080.m3u8
 https://y5w8j4a9.ssl.hwcdn.net/andflixhd/tracks-v1a1/mono.m3u8
 #EXTINF:0 &amp;Prive
 https://y5w8j4a9.ssl.hwcdn.net/andprivehd/tracks-v1a1/mono.m3u8
-#EXTINF:0 FOX (VN)
-http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOX-HD-1080p/playlist.m3u8%20
-#EXTINF:0 FOX LIFE (VN)
+#EXTINF:-1 group-title="Movies" tvg-logo="http://kamiselaluada.com/img/fox.png",FOX (VN)
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOX-HD-1080p/playlist.m3u8 
+#EXTINF:-1 tvg-id="foxlife" group-title="Movies" tvg-logo="http://kamiselaluada.com/img/foxlife.png",FOX LIFE (VN)
 https://livecdn.fptplay.net/foxlive/foxlifehd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:0 FOX Movies (VN)
+#EXTINF:-1 tvg-id="foxmovies" group-title="Movies" tvg-logo="http://kamiselaluada.com/img/foxmovies.png",FOX Movies (VN)
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXMOVIES-HD-1080p/playlist.m3u8
-#EXTINF:0 FOX FAMILY Movies (VN)
+#EXTINF:-1 tvg-id="foxfamilymovies" group-title="Movies" tvg-logo="http://kamiselaluada.com/img/foxfamilymovies.png",FOX FAMILY Movies (VN)
 http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXFAMILY-HD-1080p/playlist.m3u8
 #EXTINF:0 MTA TV
 https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(b3673fde-4acd-4f1d-95a5-a204d62545ac)/manifest.mpd
-#EXTINF:0 RODJA TV
+#EXTINF:0 tvg-logo="http://kamiselaluada.com/img/rodjatv.png" group-title="Religi",RODJA TV
 https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(6f7158e4-f151-45dd-874f-e02c15c7cd4b)/manifest.mpd
 #EXTINF:0 JAK TV
 https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(7a73ed02-e0de-4df1-8da3-5abfd75f24bd)/manifest.mpd
