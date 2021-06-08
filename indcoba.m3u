@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:360, INDOSIAR
+#EXTINF:360, tvg-logo="https://i.postimg.cc/QdwWh5Lt/indosiar.png" group-title="LOCAL",INDOSIAR
 #EXTVLCOPT:network-caching=1000
 https://iptv-nublltsls-mwafa.vercel.app/api/vidio?id=205
 #EXTINF:0, TVONE
