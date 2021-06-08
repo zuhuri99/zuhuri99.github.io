@@ -8,8 +8,7 @@ http://kamiselaluada.com/welcome.ts?1
 #EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/tvone.png" group-title="FTA",TVONE
 #EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/tvone.png" group-title="Lokal",TVONE
 http://210.210.155.35/session/89b67282-bba9-11eb-a2f9-a89d8f6847b4/qwr9ew/s/s105/01.m3u8
-#EXTINF:360 tvg-logo="http://kamiselaluada.com/img/sctv.png" group-title="Lokal",SCTV BARU
-#EXTVLCOPT:network-caching=1000
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/sctv.png" group-title="Lokal",SCTV
 http://210.210.155.35:80/session/65729a3e-2ecf-11eb-b0a7-c81f66f89318/qwr9ew/s/s03/01.m3u8 
 #EXTINF:360,TV 9
 #EXTVLCOPT:network-caching=1000
