@@ -1,74 +1,73 @@
 <!-- saved from url=(0037)http://dusktill.masuk.web.id/123.m3u8 -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>
 #EXTM3U
-#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/tvone.png" group-title="BERITA",TVONE
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZKv7J82B/tvone.png" group-title="BERITA",TVONE
 http://210.210.155.35/session/89b67282-bba9-11eb-a2f9-a89d8f6847b4/qwr9ew/s/s105/01.m3u8
-#EXTINF:360,TV 9
+#EXTINF:-1,TV 9
 #EXTVLCOPT:network-caching=1000
 http://wowza60.indostreamserver.com:1935/tv9/live/playlist.m3u8
 #EXTINF:360,TV MUHAMMADIYAH
 #EXTVLCOPT:network-caching=1000
 rtmp://118.97.183.222/discover/muhammadiyahtv
-#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/sctv.png" group-title="VIDIO",SCTV
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/sctv.png" group-title="LOCAL",SCTV
 https://znjjprwzgeyyp.vidio.com/hls-p/ingest_204_720p/index.m3u8
-#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/indosiar.png" group-title="VIDIO",INDOSIAR
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/indosiar.png" group-title="LOCAL",INDOSIAR
 https://znjjprwzgeyyp.vidio.com/hls-p/ingest_205_720p/index.m3u8
-#EXTINF:60, tvg-logo="https://i.postimg.cc/DyWXD5DD/antv.png" group-title="LOCAL",ANTV
-#EXTVLCOPT:network-caching=1000
-http://210.210.155.35/qwr9ew/s/s07/02.m3u8
-#EXTINF:30,tvg-logo="https://i.postimg.cc/8z2Bwxzt/beritasatu.png" group-title="BERITA",Berita Satu World
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/antv.png" group-title="LOCAL",ANTV
+http://210.210.155.35:80/session/74698288-2ed3-11eb-82e0-c81f66f89318/qwr9ew/s/s07/01.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/8z2Bwxzt/beritasatu.png" group-title="BERITA",Berita Satu World
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 http://edge.linknetott.swiftserve.com/live/BsNew/amlst:bsnew/playlist.m3u8
-#EXTINF:0, tvg-logo="https://cdn.cnbcindonesia.com/cnbc/images/logo_hitam.png?w=650" group-title="NEWS",CNBC Indonesia (720p)
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/cnbcindonesia.png" group-title="BERITA",CNBC Indonesia (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
-#EXTINF:36,tvg-logo="https://i.postimg.cc/J4FL2h8M/cnnindonesia.png" group-title="BERITA",CNN Indonesia (720p)
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/J4FL2h8M/cnnindonesia.png" group-title="BERITA",CNN Indonesia (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
-#EXTINF:600,tvg-logo="https://i.postimg.cc/HsqNM8Hc/globaltv.png" group-title="LOCAL",GTV (720p)
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/HsqNM8Hc/globaltv.png" group-title="LOCAL",GTV (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://vcdn2.rctiplus.id/live/eds/gtv_fta/live_fta/gtv_fta.m3u8
-#EXTINF:0,tvg-logo="https://i.postimg.cc/3r4RxmbC/inewstv.png" group-title="BERITA",iNews
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/3r4RxmbC/inewstv.png" group-title="BERITA",iNews
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://livestreaming-google-etslive.vidio.com/hls-p/ingest_5409_720p/index.m3u8
-#EXTINF:360,tvg-logo="https://www.useetv.com/assets/images/channel/logo_kompastv_small.png" group-title="BERITA",Kompas TV
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_kompastv_small.png" group-title="BERITA",Kompas TV
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://livestreaming-google-etslive.vidio.com/hls-p/ingest_874_720p/index.m3u8
-#EXTINF:30,tvg-logo="https://i.postimg.cc/QCYc7yzg/metrotv.png" group-title="BERITA",METRO TV (720p)
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/QCYc7yzg/metrotv.png" group-title="BERITA",METRO TV (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 http://edge.metroTVnews.com:1935/live-edge/smil:metro.smil/master.m3u8
-#EXTINF:600,tvg-logo="https://3.bp.blogspot.com/-stEJUE6q-4Y/XbMzkvzx3wI/AAAAAAAAAtk/UnrCWgCowNEg_DOaG6Akf9aDcwcHyPAvgCLcBGAsYHQ/s320/20191026_003920.png" group-title="LOCAL",MNCTV (720p)
+#EXTINF:-1,tvg-logo="https://3.bp.blogspot.com/-stEJUE6q-4Y/XbMzkvzx3wI/AAAAAAAAAtk/UnrCWgCowNEg_DOaG6Akf9aDcwcHyPAvgCLcBGAsYHQ/s320/20191026_003920.png" group-title="LOCAL",MNCTV (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://vcdn2.rctiplus.id/live/eds/mnctv_fta/live_fta/mnctv_fta.m3u8
-#EXTINF:0 tvg-logo="https://images.useetv.com/logo_net_big1.png?v=2.0.0.13" group-title="LOCAL",NET.
+#EXTINF:-1 tvg-logo="https://images.useetv.com/logo_net_big1.png?v=2.0.0.13" group-title="LOCAL",NET.
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://livestreaming-google-etslive.vidio.com/hls-p/ingest_875_720p/index.m3u8
-#EXTINF:0,tvg-logo="https://1.bp.blogspot.com/-HO0bKm61gag/XbLtZYpFkVI/AAAAAAAAAtI/5cG_swWFmsQCd0JyWBI080A1zTis6N_hACLcBGAsYHQ/s1600/20191010_164600.png" group-title="LOCAL",RCTI (720p)
+#EXTINF:-1,tvg-logo="https://1.bp.blogspot.com/-HO0bKm61gag/XbLtZYpFkVI/AAAAAAAAAtI/5cG_swWFmsQCd0JyWBI080A1zTis6N_hACLcBGAsYHQ/s1600/20191010_164600.png" group-title="LOCAL",RCTI (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://vcdn2.rctiplus.id/live/eds/rcti_fta/live_fta/rcti_fta.m3u8
-#EXTINF:0,tvg-logo="https://i.postimg.cc/fb172pW8/rajawalitv.png" group-title="LOCAL",RTV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/fb172pW8/rajawalitv.png" group-title="LOCAL",RTV
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://livestreaming-google-etslive.vidio.com/hls-p/ingest_1561_720p/index.m3u8
-#EXTINF:27,tvg-logo="https://i.postimg.cc/YCfxSb39/trans7.png" group-title="LOCAL",TRANS 7 HD (720p)
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/YCfxSb39/trans7.png" group-title="LOCAL",TRANS 7 HD (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
-#EXTINF:27,tvg-logo="https://www.useetv.com/assets/images/channel/logo_transtv_big1.png?v=2.0.0.13" group-title="LOCAL",TRANS TV HD (720p)
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_transtv_big1.png?v=2.0.0.13" group-title="LOCAL",TRANS TV HD (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
-#EXTINF:0,TVRI Sport HD
+#EXTINF:-1,TVRI Sport HD
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 http://wpc.d1627.nucdn.net:80/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream(03)/index.m3u8<script>mendeleyWebImporter = {
