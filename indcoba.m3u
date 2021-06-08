@@ -43,7 +43,7 @@ https://livestreaming-google-etslive.vidio.com/hls-p/ingest_875_720p/index.m3u8
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://vcdn2.rctiplus.id/live/eds/rcti_fta/live_fta/rcti_fta.m3u8
-#EXTINF:0,RRI Net okee (720p)
+#EXTINF:0,RRI Net (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 http://36.89.47.217:11935/rrinet/live/index.m3u8
