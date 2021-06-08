@@ -1,4 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/tvone.png" group-title="FTA",TVONE
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/tvone.png" group-title="Lokal",TVONE
+http://210.210.155.35/session/89b67282-bba9-11eb-a2f9-a89d8f6847b4/qwr9ew/s/s105/01.m3u8
 #EXTINF:360 tvg-logo="http://kamiselaluada.com/img/sctv.png" group-title="Lokal",SCTV BARU
 #EXTVLCOPT:network-caching=1000
 http://210.210.155.35:80/session/65729a3e-2ecf-11eb-b0a7-c81f66f89318/qwr9ew/s/s03/01.m3u8 
@@ -11,9 +14,6 @@ rtmp://118.97.183.222/discover/muhammadiyahtv
 #EXTINF:360, tvg-logo="https://i.postimg.cc/QdwWh5Lt/indosiar.png" group-title="LOCAL",INDOSIAR
 #EXTVLCOPT:network-caching=1000
 https://iptv-nublltsls-mwafa.vercel.app/api/vidio?id=205
-#EXTINF:0, tvg-logo="https://i.postimg.cc/ZKv7J82B/tvone.png" group-title="BERITA",TVONE
-#EXTVLCOPT:network-caching=1000
-http://210.210.155.35/session/89b67282-bba9-11eb-a2f9-a89d8f6847b4/qwr9ew/s/s105/01.m3u8
 #EXTINF:360, tvg-logo="https://i.postimg.cc/B6ZFwp58/sctv.png" group-title="LOCAL",SCTV
 #EXTVLCOPT:network-caching=1000
 https://iptv-nublltsls-mwafa.vercel.app/api/vidio?id=204
