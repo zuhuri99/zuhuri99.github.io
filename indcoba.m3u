@@ -39,7 +39,7 @@ https://livestreaming-google-etslive.vidio.com/hls-p/ingest_874_720p/index.m3u8
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 http://edge.metroTVnews.com:1935/live-edge/smil:metro.smil/master.m3u8
-#EXTINF:600,tvg-logo="https://3.bp.blogspot.com/-stEJUE6q-4Y/XbMzkvzx3wI/AAAAAAAAAtk/UnrCWgCowNEg_DOaG6Akf9aDcwcHyPAvgCLcBGAsYHQ/s320/20191026_003920.png" group-title="LOCAL", MNCTV (720p)
+#EXTINF:600,tvg-logo="https://3.bp.blogspot.com/-stEJUE6q-4Y/XbMzkvzx3wI/AAAAAAAAAtk/UnrCWgCowNEg_DOaG6Akf9aDcwcHyPAvgCLcBGAsYHQ/s320/20191026_003920.png" group-title="LOCAL",MNCTV (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://vcdn2.rctiplus.id/live/eds/mnctv_fta/live_fta/mnctv_fta.m3u8
@@ -47,7 +47,7 @@ https://vcdn2.rctiplus.id/live/eds/mnctv_fta/live_fta/mnctv_fta.m3u8
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://livestreaming-google-etslive.vidio.com/hls-p/ingest_875_720p/index.m3u8
-#EXTINF:0,tvg-logo="https://1.bp.blogspot.com/-HO0bKm61gag/XbLtZYpFkVI/AAAAAAAAAtI/5cG_swWFmsQCd0JyWBI080A1zTis6N_hACLcBGAsYHQ/s1600/20191010_164600.png" group-title="LOCAL", RCTI (720p)
+#EXTINF:0,tvg-logo="https://1.bp.blogspot.com/-HO0bKm61gag/XbLtZYpFkVI/AAAAAAAAAtI/5cG_swWFmsQCd0JyWBI080A1zTis6N_hACLcBGAsYHQ/s1600/20191010_164600.png" group-title="LOCAL",RCTI (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://vcdn2.rctiplus.id/live/eds/rcti_fta/live_fta/rcti_fta.m3u8
