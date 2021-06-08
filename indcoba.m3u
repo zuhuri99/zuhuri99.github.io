@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://1000logos.net/wp-content/uploads/2021/05/Hikvision-logo.png" group-title="CCTV",CCTV RUMAH
-rtsp://admin:[rumah]935@192.168.1.100:554/Streaming/Channels/1
+rtsp://admin:[rumah]935@astarumah.ddns.net:554/Streaming/Channels/1
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/ZKv7J82B/tvone.png" group-title="BERITA",TVONE
 http://210.210.155.35/session/89b67282-bba9-11eb-a2f9-a89d8f6847b4/qwr9ew/s/s105/01.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/8z2Bwxzt/beritasatu.png" group-title="BERITA",Berita Satu World
