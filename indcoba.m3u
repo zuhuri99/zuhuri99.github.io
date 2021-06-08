@@ -9,10 +9,6 @@ http://wowza60.indostreamserver.com:1935/tv9/live/playlist.m3u8
 #EXTINF:360,TV MUHAMMADIYAH
 #EXTVLCOPT:network-caching=1000
 rtmp://118.97.183.222/discover/muhammadiyahtv
-#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/sctv.png" group-title="Lokal",SCTV
-http://210.210.155.35:80/session/65729a3e-2ecf-11eb-b0a7-c81f66f89318/qwr9ew/s/s03/01.m3u8
-#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/indosiar.png" group-title="Lokal",INDOSIAR
-http://210.210.155.35:80/session/91daacce-2ecf-11eb-8016-b82a72d63267/qwr9ew/s/s04/01.m3u8
 #EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/sctv.png" group-title="VIDIO",SCTV
 https://znjjprwzgeyyp.vidio.com/hls-p/ingest_204_720p/index.m3u8
 #EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/indosiar.png" group-title="VIDIO",INDOSIAR
