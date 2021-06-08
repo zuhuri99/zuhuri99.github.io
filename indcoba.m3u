@@ -15,7 +15,7 @@ http://210.210.155.35/qwr9ew/s/s07/02.m3u8
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 http://edge.linknetott.swiftserve.com/live/BsNew/amlst:bsnew/playlist.m3u8
-#EXTINF:0, tvg-logo="https://i.postimg.cc/C53XtK5f/zaltv.png" group-title="NEWS",CNBC Indonesia (720p)
+#EXTINF:0, tvg-logo="https://cdn.cnbcindonesia.com/cnbc/images/logo_hitam.png?w=650" group-title="NEWS",CNBC Indonesia (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
