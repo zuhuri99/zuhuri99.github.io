@@ -1,10 +1,16 @@
 #EXTM3U
+#EXTINF:360,TV 9
+#EXTVLCOPT:network-caching=1000
+http://wowza60.indostreamserver.com:1935/tv9/live/playlist.m3u8
+#EXTINF:360,TV MUHAMMADIYAH
+#EXTVLCOPT:network-caching=1000
+rtmp://118.97.183.222/discover/muhammadiyahtv
 #EXTINF:360, tvg-logo="https://i.postimg.cc/QdwWh5Lt/indosiar.png" group-title="LOCAL",INDOSIAR
 #EXTVLCOPT:network-caching=1000
 https://iptv-nublltsls-mwafa.vercel.app/api/vidio?id=205
 #EXTINF:0, tvg-logo="https://i.postimg.cc/ZKv7J82B/tvone.png" group-title="BERITA",TVONE
 #EXTVLCOPT:network-caching=1000
-http://202.80.222.130/000001/2/ch14061215030555428637/index.m3u8?virtualDomain=000001.live_hls.zte.com
+http://chostv.mobie.in/files/iptv/tvone.m3u8
 #EXTINF:360, tvg-logo="https://i.postimg.cc/B6ZFwp58/sctv.png" group-title="LOCAL",SCTV
 #EXTVLCOPT:network-caching=1000
 https://iptv-nublltsls-mwafa.vercel.app/api/vidio?id=204
