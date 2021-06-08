@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:30,TV ONE
+#EXTVLCOPT:file-caching=1000
+#EXTVLCOPT:network-caching=1000
+https://youtu.be/yeXkLCFIuCU
 #EXTINF:30,Berita Satu World
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
