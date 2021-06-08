@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/sctv.png" group-title="Lokal",SCTV BARU
+http://210.210.155.35:80/session/65729a3e-2ecf-11eb-b0a7-c81f66f89318/qwr9ew/s/s03/01.m3u8 
 #EXTINF:360,TV 9
 #EXTVLCOPT:network-caching=1000
 http://wowza60.indostreamserver.com:1935/tv9/live/playlist.m3u8
