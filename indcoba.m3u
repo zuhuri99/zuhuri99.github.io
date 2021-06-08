@@ -1,4 +1,10 @@
-#EXTM3U
+<!-- saved from url=(0037)http://dusktill.masuk.web.id/123.m3u8 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>#EXTM3U
+
+#EXTINF:-1 tvg-id="ksa.-" tvg-logo="http://kamiselaluada.com/img/ksa.jpg", JOIN TELEGRAM
+http://kamiselaluada.com/welcome.ts?0
+#EXTINF:-1 tvg-id="ksa.-" tvg-logo="http://kamiselaluada.com/img/ksa.jpg", t.me/kamiselaluada
+http://kamiselaluada.com/welcome.ts?1
 #EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/tvone.png" group-title="FTA",TVONE
 #EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/tvone.png" group-title="Lokal",TVONE
 http://210.210.155.35/session/89b67282-bba9-11eb-a2f9-a89d8f6847b4/qwr9ew/s/s105/01.m3u8
@@ -75,4 +81,19 @@ https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
 #EXTINF:0,TVRI Sport HD
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
-http://wpc.d1627.nucdn.net:80/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream(03)/index.m3u8
+http://wpc.d1627.nucdn.net:80/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream(03)/index.m3u8<script>mendeleyWebImporter = {
+  downloadPdfs(t,e) { return this._call('downloadPdfs', [t,e]); },
+  open() { return this._call('open', []); },
+  _call(methodName, methodArgs) {
+    const id = Math.random();
+    window.postMessage({ id, token: '0.7104125620526709', methodName, methodArgs }, 'http://dusktill.masuk.web.id');
+    return new Promise(resolve => {
+      const listener = window.addEventListener('message', event => {
+        const data = event.data;
+        if (typeof data !== 'object' || !('result' in data) || data.id !== id) return;
+        window.removeEventListener('message', listener);
+        resolve(data.result);
+      });
+    });
+  }
+};</script></body></html>
