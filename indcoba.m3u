@@ -35,7 +35,7 @@ https://livestreaming-google-etslive.vidio.com/hls-p/ingest_5409_720p/index.m3u8
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 https://livestreaming-google-etslive.vidio.com/hls-p/ingest_874_720p/index.m3u8
-#EXTINF:30,tvg-logo="https://i.postimg.cc/QCYc7yzg/metrotv.png" group-title="LOCAL", METRO TV (720p)
+#EXTINF:30,tvg-logo="https://i.postimg.cc/QCYc7yzg/metrotv.png" group-title="BERITA", METRO TV (720p)
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
 http://edge.metroTVnews.com:1935/live-edge/smil:metro.smil/master.m3u8
