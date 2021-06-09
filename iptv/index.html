@@ -1,131 +1,95 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<div class="bgimg">
+  <div class="topleft">
+    <p>Logo</p>
+  </div>
+  <div class="middle">
+    <h1>COMING SOON</h1>
+    <hr>
+    <p>35 days</p>
+  </div>
+  <div class="bottomleft">
+    <p>Some text</p>
+  </div>
+</div>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+  height: 100%
+}
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
+.bgimg {
+  /* Background image */
+  background-image: url('/w3images/forestbridge.jpg');
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+}
 
-    <title>Sandhika Galih</title>
-  </head>
-  <body>
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
 
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">Sandhika</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">About</a>
-            <a class="nav-item nav-link btn btn-primary text-white tombol" href="#">Join Us</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- akhir Navbar -->
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
-    <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Get work done <span>faster</span> <br>and <span>better</span> with us</h1>
-        <a href="#" class="btn btn-info btn-lg tombol">View Our Work</a>
-      </div>
-    </div>
-    <!-- akhir Jumbotron -->
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
+}
 
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
 
-    <!-- container -->
-    <div class="container">
+// Update the count down every 1 second
+var x = setInterval(function() {
 
-      <!-- info panel -->
-      <div class="row justify-content-center">
-        <div class="col-10 info-panel">
-          <div class="row">
-            <div class="col-sm">
-              <img src="img/employee.png" alt="Employee" class="img-fluid float-left">
-              <h4>24 Hours</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="col-lg">
-              <img src="img/hires.png" alt="HiRes" class="img-fluid float-left">
-              <h4>High-Res</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="col-lg">
-              <img src="img/security.png" alt="Security" class="img-fluid float-left">
-              <h4>Security</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- akhir info panel -->
+  // Get todays date and time
+  var now = new Date().getTime();
 
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
 
-      <!-- Workingspace -->
-      <div class="row workingspace">
-        <div class="col-lg-6">
-          <img src="img/workingspace.png" alt="Working Space" class="img-fluid">
-        </div>
-        <div class="col-lg-5">
-          <h2>You <span>Work</span> Like at <span>Home</span></h2>
-          <p>Bekerja dengan suasana hati yang lebih asik, menyenangkan
-            dan mempelajari hal baru setiap harinya.</p>
-          <a href="#" class="btn btn-danger tombol">Gallery</a>
-        </div>
-      </div>
-      <!-- akhir Workingspace -->
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+  // Display the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
 
-      <!-- Testimonial -->
-      <section class="testimonial">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <p>"Bekerja dengan suasana hati yang lebih asik dan mempelajari hal baru setiap harinya."</p>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-6 justify-content-center d-flex">
-            <img src="img/img1.png" alt="Testimonial 1">
-            <img src="img/img2.png" alt="Testimonial 2" class="img-main">
-            <img src="img/img3.png" alt="Testimonial 3">
-          </div>
-        </div>
-        <div class="row justify-content-center info-text">
-          <div class="col-lg text-center">
-            <h5>Sunny Ye</h5>
-            <p>Designer</p>
-          </div>
-        </div>
-      </section>
-      <!-- akhir Testimonial -->
-
-
-    </div>
-    <!-- akhir container -->
-
-
-
-
-    
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
-</html>
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
