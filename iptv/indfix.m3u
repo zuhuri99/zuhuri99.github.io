@@ -36,14 +36,12 @@ https://znjjprwzgeyyp.vidio.com/hls-p/ingest_205_720p/index.m3u8
 http://210.210.155.35:80/session/74698288-2ed3-11eb-82e0-c81f66f89318/qwr9ew/s/s07/01.m3u8
 #EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/rcti.png" group-title="LOCAL",RCTI
 https://znjjprwzgeyyp.vidio.com/hls-p/ingest_665_720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/HsqNM8Hc/globaltv.png" group-title="LOCAL",GTV (720p)
-#EXTVLCOPT:file-caching=1000
-#EXTVLCOPT:network-caching=1000
-https://vcdn2.rctiplus.id/live/eds/gtv_fta/live_fta/gtv_fta.m3u8
-#EXTINF:-1,tvg-logo="https://3.bp.blogspot.com/-stEJUE6q-4Y/XbMzkvzx3wI/AAAAAAAAAtk/UnrCWgCowNEg_DOaG6Akf9aDcwcHyPAvgCLcBGAsYHQ/s320/20191026_003920.png" group-title="LOCAL",MNCTV (720p)
-#EXTVLCOPT:file-caching=1000
-#EXTVLCOPT:network-caching=1000
-https://vcdn2.rctiplus.id/live/eds/mnctv_fta/live_fta/mnctv_fta.m3u8
+#EXTINF:-1 tvg-id="mnctv" tvg-logo="http://kamiselaluada.com/img/mnctv.png" group-title="VIDIO",MNCTV 
+https://znjjprwzgeyyp.vidio.com/hls-p/ingest_870_720p/index.m3u8 
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/jaktv.png" group-title="VIDIO",JakTV 
+https://znjjprwzgeyyp.vidio.com/hls-p/ingest_5415_720p/index.m3u8 
+#EXTINF:-1 tvg-logo="http://kamiselaluada.com/img/gtv.png" group-title="VIDIO",GTV 
+https://znjjprwzgeyyp.vidio.com/hls-p/ingest_778_720p/index.m3u8 
 #EXTINF:-1 tvg-logo="https://images.useetv.com/logo_net_big1.png?v=2.0.0.13" group-title="LOCAL",NET.
 #EXTVLCOPT:file-caching=1000
 #EXTVLCOPT:network-caching=1000
